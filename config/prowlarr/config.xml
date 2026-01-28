@@ -1,23 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Config>
+  <BindAddress>*</BindAddress>
   <Port>9696</Port>
   <SslPort>6969</SslPort>
   <EnableSsl>False</EnableSsl>
-  <LaunchBrowser>False</LaunchBrowser>
+  <LaunchBrowser>True</LaunchBrowser>
+  <ApiKey>f8ad8c7965d542ddbb442990d17e2dc5</ApiKey>
   <AuthenticationMethod>None</AuthenticationMethod>
-  <AuthenticationRequired>Disabled</AuthenticationRequired>
-  <LogLevel>Info</LogLevel>
-  <ConsoleLogLevel>Info</ConsoleLogLevel>
-  <Branch>develop</Branch>
-  <ApiKey>kdmX0cF1ZVezh_Eoo7qIQC55rnzFbQXrDMKqs3HkSNs</ApiKey>
+  <AuthenticationRequired>Enabled</AuthenticationRequired>
+  <Branch>master</Branch>
+  <LogLevel>debug</LogLevel>
+  <SslCertPath></SslCertPath>
+  <SslCertPassword></SslCertPassword>
   <UrlBase></UrlBase>
   <InstanceName>Prowlarr</InstanceName>
   <UpdateMechanism>Docker</UpdateMechanism>
-  <UpdateScriptPath></UpdateScriptPath>
-  <AnalyticsEnabled>True</AnalyticsEnabled>
-  <Indexers></Indexers>
-  <Apps></Apps>
-  <Notifications></Notifications>
-  <Tags></Tags>
-  <DownloadClients></DownloadClients>
 </Config>

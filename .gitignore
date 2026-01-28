@@ -12,6 +12,7 @@ logs/
 *.tmp
 *.temp
 .DS_Store
+MediaCover
 
 # Config directories may contain sensitive API keys after first run
 # Uncomment if you want to exclude generated configs (but keep templates)
