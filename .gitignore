@@ -1,0 +1,20 @@
+# Data folder - contains downloaded media
+data/
+
+# Environment variables with sensitive information
+.env
+
+# Generated log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+
+# Config directories may contain sensitive API keys after first run
+# Uncomment if you want to exclude generated configs (but keep templates)
+# config/*/config.xml
+# config/*/config.ini
+# config/*/qBittorrent.conf
